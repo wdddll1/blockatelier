@@ -1,4 +1,4 @@
-# 方隅工坊 · Minecraft Mod 发布页
+# Dian坊记 · Minecraft Mod 发布页
 
 个人 Mod 作品站的第一版布局演示，静态 HTML / CSS / JavaScript，无需安装依赖。当前作品、版本和概念海报均为演示，尚未提供真实 JAR。
 
@@ -28,3 +28,5 @@ GitHub Pages 使用 main 分支根目录。提交修改后会自动部署；发�
 网站自身无登录要求。GitHub Pages 的公网可达性取决于访问者网络，可在 VPN 连接后用未登录的无痕窗口访问验证。
 
 本站非 Minecraft / Mojang / Microsoft 官方网站。
+
+详细修改说明：[手动编辑指南](EDITING.md)。
