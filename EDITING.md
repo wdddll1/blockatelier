@@ -50,8 +50,11 @@ index.html 和 style.css 部分内容较紧凑，建议下载仓库后用 VS Cod
 
 - id：唯一的英文编号，不要重复。
 - name / english：中文名称 / 英文名称。
-- category：目前使用“创造”“探索”“实用”；新增分类还需要修改 index.html 的分类按钮。
-- description：简短介绍。
+- category：目前使用“本体”“拓展”“其他（优化）”；新增分类还需要修改 index.html 的分类按钮。
+- description：卡片上的简短介绍。
+- introduction：详情弹窗中的完整介绍。
+- note：详情弹窗底部说明。
+- placeholder：为 true 时以“敬请期待”展示预留作品。
 - poster：图片相对路径，例如 './assets/my-mod.png'。
 - color：卡片点缀色，例如 '#b3d99d'。
 - status：状态文字，例如 '已发布'、'开发中'。
@@ -71,7 +74,7 @@ developmentUrl: 'https://github.com/你的用户名/你的Mod仓库',
 
 字段之间使用英文逗号，文本保留引号。单引号字符串中要输入单引号时用 \' 转义，或者改用双引号包围。增加作品时复制完整对象并用逗号分隔，同时更新 index.html 里“全部作品”的数量。
 
-正式替换内容后，也要更新预览说明、卡片底部“版本资料待补充”及详情中的演示提示。后两项在 app.js 中；仅改 status 不会自动移除这些提示。
+卡片底部版本从 versions 自动生成，详情的状态与底部说明分别来自 status 和 note。更换封面后，可以修改 app.js 中的概念海报说明。
 
 ## 上传图片
 

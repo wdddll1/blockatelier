@@ -1,6 +1,6 @@
 # Dian坊记 · Minecraft Mod 发布页
 
-个人 Mod 作品站的第一版布局演示，静态 HTML / CSS / JavaScript，无需安装依赖。当前作品、版本和概念海报均为演示，尚未提供真实 JAR。
+个人 Mod 作品站，使用静态 HTML / CSS / JavaScript，无需安装依赖。当前介绍缝合铁道与模型导入器，开发平台统一为 Minecraft Java 1.20.1 / Forge。封面暂用概念海报，下载与开发主页待发布。
 
 公开网站：https://wdddll1.github.io/blockatelier/
 
